@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: wizard
+    password: wizard
+    url: jdbc:mysql://localhost:3306/wizard_registry
+    
+logging:
+  level:
+    root: warn
+    '[com.connerm117]': debug
